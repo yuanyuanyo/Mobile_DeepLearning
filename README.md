@@ -22,7 +22,6 @@ Extraction Code: `7h8r`
 
 To set up the environment and run the code, follow these steps:
 
-### Step 1: Install Dependencies
 We recommend using `conda` to manage the environment for this project. First, ensure you have `conda` installed. Then, follow these steps to set up the environment:
 
 1. Clone or download this repository and extract the contents.
