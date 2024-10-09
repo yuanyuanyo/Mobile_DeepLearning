@@ -13,8 +13,22 @@ Key findings include:
 Field inspections conducted in Aachen, Germany, using both smartphones and MR devices confirm the efficacy of the proposed method, demonstrating strong generalization potential in practical engineering applications.
 
 ## Dataset and Code
-The dataset used in this research are available for download via the following link:
+The dataset used in this research is available for download via the following link:
 
 [Download Dataset and Code](https://pan.baidu.com/s/1zeS5c-QtbPu5x6yWR4f0cA)  
 Extraction Code: `7h8r`
 
+## Installation Guide
+
+To set up the environment and run the code, follow these steps:
+
+### Step 1: Install Dependencies
+We recommend using `conda` to manage the environment for this project. First, ensure you have `conda` installed. Then, follow these steps to set up the environment:
+
+1. Clone or download this repository and extract the contents.
+2. Download the dataset and code from the provided link, and extract the zip file into the project directory.
+
+3. Install the required environment by running the following command:
+
+   ```bash
+   conda env create -f environment.yml
