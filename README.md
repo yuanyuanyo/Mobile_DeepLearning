@@ -58,3 +58,30 @@ Run the following command to train the teacher model:
    ```bash
 python train_teacher.py
    ```
+
+###  3. Training the Student Model (Knowledge Distillation)
+For knowledge distillation, train the student model by executing:
+   ```bash
+python train_student.py
+   ```
+
+###  4. Model Pruning
+Prune the model using:
+   ```bash
+python nni_distill.py
+   ```
+
+###  5. Conversion to TFLite Format
+Convert the model to TensorFlow Lite format:
+   ```bash
+PJRT_DEVICE=CPU CUDA_VISIBLE_DEVICES="" python convert2tflight.py
+   ```
+
+###  6. Quantization and Conversion to TFLite Format
+Perform quantization and conversion with:
+   ```bash
+python 2tflite_Quanti.py
+   ```
+
+###  License
+This project is licensed under the MIT License - see the LICENSE file for details.
