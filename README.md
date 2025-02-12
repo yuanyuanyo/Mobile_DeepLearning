@@ -31,3 +31,23 @@ We recommend using `conda` to manage the environment for this project. First, en
 
    ```bash
    conda env create -f environment.yml
+
+## 🚀 Instruction for Use
+
+### 🗂️ 1. Dataset Configuration
+Organize your dataset in the following directory structure:
+
+```plaintext
+dataset/
+    train/
+        class1/
+            img1.png
+            img2.png
+        class2/
+            img1.png
+            img2.png
+    val/
+        class1/
+            img1.png
+        class2/
+            img1.png
