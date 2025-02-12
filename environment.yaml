@@ -1,0 +1,17 @@
+name: mobilitenet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.8
+  - pip
+  - pytorch=2.4.1
+  - torchvision=0.16.2
+  - torch-xla=2.4.0
+  - ai-edge-torch=0.1.1
+  - nni=3.0
+  - tqdm=4.64.1
+  - numpy=1.26.4
+  - tensorflow=2.18.0
+  - pip:
+      - torch
