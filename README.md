@@ -51,4 +51,10 @@ Organize your dataset in the following directory structure:
                img1.png
            class2/
                img1.png
-```dadfffff
+   ```
+
+###  2. Training the Teacher Model
+Run the following command to train the teacher model:
+   ```bash
+python train_teacher.py
+   ```
