@@ -1,22 +1,22 @@
-# Advancing Infrastructure Monitoring: Lightweight Deep Learning for Real-Time Road Distress Detection on Mobile Devices
+# A Lightweight Deep Learning for Real-Time Road Distress Detection on Mobile Devices
 
 ## Abstract
-Cracks in road infrastructure critically affect service life and public safety, making timely detection essential. Currently, detections are primarily manual, relying on experienced engineers, which is time-consuming and labor-intensive. Recent advancements in Artificial Intelligence (AI) and intelligent mobile devices present promising solutions for efficient crack identification. 
+MobiLiteNet is a lightweight deep learning framework designed for **real-time road distress detection** on mobile and mixed reality (MR) devices. By integrating **Efficient Channel Attention (ECA), structural refinement, sparse knowledge distillation, structured pruning, and quantization**, the model achieves **high detection accuracy with significantly reduced computational cost**. Field tests confirm its applicability in mobile road monitoring, while a **diverse dataset from Europe and Asia** ensures robustness. Experimental results show that MobiLiteNet outperforms baseline models, enabling **scalable and accurate road distress detection** for **intelligent transportation and infrastructure management**.
 
-This study proposes a lightweight model based on MobileNet V2, optimized for deployment on intelligent mobile devices such as Android smartphones and Mixed Reality (MR) devices, to facilitate rapid identification of road infrastructure defects during field inspections. 
 
 Key findings include:
-- The lightweight MobileNet V2 model reduces the number of parameters and the model size by 65% compared to the original version.
-- The model maintains a high accuracy rate of 92% on the tested dataset when deployed on smartphones.
-- The YOLOv8n and lightweight MobileNet V2 models are capable of real-time detection under varying conditions when deployed on MR devices.
-
-Field inspections conducted in Aachen, Germany, using both smartphones and MR devices confirm the efficacy of the proposed method, demonstrating strong generalization potential in practical engineering applications.
+- Proposed MobiLiteNet, a novel lightweight deep learning framework optimized for real-time road distress detection on mobile and MR devices.  
+- Successful deployment on MR devices in road engineering projects in Aachen, Germany, demonstrating practical feasibility in complex environments.  
+- Constructed a diverse dataset with road distress images from Europe and Asia, enhancing model robustness and generalization.  
 
 ## Dataset and Code
 The dataset used in this research is available for download via the following link:
 
-[Download Dataset and Code](https://pan.baidu.com/s/1zeS5c-QtbPu5x6yWR4f0cA)  
-Extraction Code: `7h8r`
+[Download Dataset for Classification](https://pan.baidu.com/s/1ZO0rKhjO_f2OE5SWqxbbjg)  
+Extraction Code: `aej9`
+
+[Download Dataset for Object Detection](https://pan.baidu.com/s/1evnkLWYLZ9VKDcnH5ueqHQ)  
+Extraction Code: `qimr`
 
 ## Installation Guide
 
