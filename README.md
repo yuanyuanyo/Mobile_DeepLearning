@@ -83,5 +83,6 @@ Perform quantization and conversion with:
 python 2tflite_Quanti.py
    ```
 
-###  License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📜 License
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
