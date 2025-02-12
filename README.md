@@ -37,7 +37,7 @@ We recommend using `conda` to manage the environment for this project. First, en
 ###  1. Dataset Configuration
 Organize your dataset in the following directory structure:
 
-   ```plaintext
+   ```bash
    dataset/
        train/
            class1/
@@ -51,4 +51,3 @@ Organize your dataset in the following directory structure:
                img1.png
            class2/
                img1.png
-
